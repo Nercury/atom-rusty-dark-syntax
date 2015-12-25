@@ -4,16 +4,11 @@
   "version": "0.3.0",
   "description": "A dark rusty theme that favors orange-green-yellow colors",
   "keywords": [
-    "syntax",
-    "theme",
     "colorful",
     "rust",
     "rusty",
-    "brown",
-    "orange",
-    "green",
-    "yellow",
-    "high-contrast"
+    "dark",
+    "orange"
   ],
   "repository": "https://github.com/Nercury/atom-rusty-dark-syntax",
   "license": "MIT",
