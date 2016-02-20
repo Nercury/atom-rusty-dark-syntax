@@ -4,7 +4,7 @@ The main motivation was to make a syntax theme that works well for the
 [Rust](https://www.rust-lang.org/) language. All I needed was suitable
 inspiration. How would rusty theme look like? Let's see:
 
-![Rusty Inspiration](https://raw.githubusercontent.com/Nercury/atom-rusty-dark-syntax/master/examples/rust-inspiration.gif)
+![Rusty Inspiration](https://raw.githubusercontent.com/Nercury/atom-rusty-dark-syntax/master/examples/rust-inspiration.jpg)
 
 Of course, I tried not overdo it and keep it functional. This resulted in
 folowing choices:
