@@ -1,19 +1,25 @@
 # Rusty dark syntax theme for Atom
 
-A theme designed to color-hint certain patterns in code.
+The main motivation was to make a syntax theme that works well for the
+[Rust](https://www.rust-lang.org/) language. All I needed was suitable
+inspiration. How would rusty theme look like? Let's see:
 
-The guidelines are not strict, because they are impossible to define strictly
-in a mess that is Atom CSS. However the following rules are roughly followed:
+![Rusty Inspiration](https://raw.githubusercontent.com/Nercury/atom-rusty-dark-syntax/master/examples/rust-inspiration.gif)
 
-- Actual code is orange
+Of course, I tried not overdo it and keep it functional. This resulted in
+folowing choices:
+
+- Actual code is a bit brown
 - Keywords and types favor blue
 - Control structures use a very distinct green
 - Type bounds favor brown
-- Comments are readable
+- Comments are readable grey
 - Strings are green
-- Other colors are used to hint very special cases
+- There are colors to hint very special cases, like unsafe
 
-Works nicely with these languages at the minimum: `rust`, `js`, `html`, `css`,
+Of course, I also tested it with other languages, in particular: `js`, `html`, `css`,
 `less`, `java`, `lua`, `php`, `bash`, `toml`, `markdown`, `protobuf`, `sql`.
+
+The result:
 
 ![Screenshot](https://raw.githubusercontent.com/Nercury/atom-rusty-dark-syntax/master/examples/screenshot.jpg)
