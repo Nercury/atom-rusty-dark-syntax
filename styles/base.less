@@ -93,12 +93,16 @@ atom-text-editor .search-results .marker.current-result .region,
     color: @unit-text;
   }
 
-  &.other.unit {
-    color: @unit-text;
-  }
+  &.other {
+      color: @keyword-text;
 
-  &.other.fn {
-    color: @keyword-fn-text;
+      &.unit {
+        color: @unit-text;
+      }
+
+      &.important {
+        color: @visibility-text;
+      }
   }
 
   &.unsafe {
@@ -121,8 +125,32 @@ atom-text-editor .search-results .marker.current-result .region,
       color: @visibility-text;
   }
 
+  &.type {
+      color: @keyword-text;
+
+      &.core {
+          color: @type-text;
+      }
+  }
+
   &.modifier {
       font-style: italic;
+
+      &.glsl {
+          color: @visibility-text;
+      }
+
+      &.php {
+          color: @visibility-text;
+      }
+  }
+
+  &.mut, &.const, &.static {
+      color: @type-keyword-text;
+  }
+
+  &.mod {
+      color: @keyword-text;
   }
 }
 
@@ -135,6 +163,11 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.support {
     color: @control-text;
+
+    &.js {
+        color: @visibility-text;
+        font-style: italic;
+    }
   }
 }
 
@@ -242,6 +275,11 @@ atom-text-editor .search-results .marker.current-result .region,
     }
 
     &.core {
+      font-weight: bold;
+      color: @control-text;
+    }
+
+    &.std {
       font-weight: bold;
       color: @control-text;
     }
