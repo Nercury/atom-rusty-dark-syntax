@@ -171,6 +171,20 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 }
 
+.storage.type.primitive.rust {
+  color: @type-text !important;
+}
+
+.source.rust {
+  .parameter {
+    color: @method-parameter-text !important;
+  }
+  .macro {
+    color: @control-text !important;
+    font-weight: bold;
+  }
+}
+
 .variable {
   color: @variable-text;
 
@@ -251,6 +265,10 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.section.embedded {
     color: @embeded-text;
+  }
+
+  &.symbol.rust {
+    color: @namespace-and-dereference-text;
   }
 }
 
