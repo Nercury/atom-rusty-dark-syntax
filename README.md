@@ -1,11 +1,6 @@
 # Rusty dark syntax theme for Atom
 
 > __Warning__: this theme will not work right if `atom-language-rust` package is installed.
-
-> There is a new package `atom-language-rust` (not to be mistaken with `language-rust`) that __changes__ styles defined by
-> `language-rust` and even __forces__ specific colors for these styles, __preventing
-> theme authors from creating themes for Rust__.
-
 > To use this theme, __uninstall__ `atom-language-rust`, install `language-rust`, and restart __Atom__.
 
 The main motivation was to make a syntax theme that works well for the
